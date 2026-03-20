@@ -82,3 +82,18 @@ code {
   border-radius: 4px;
   font-size: 0.9em;
 }
+
+pre {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  overflow-x: auto;
+  margin: 0.75rem 0 0;
+}
+
+.error {
+  color: #dc2626;
+  margin-top: 0.5rem;
+}
