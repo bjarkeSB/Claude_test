@@ -10,4 +10,4 @@ WORKDIR /app
 RUN npm install -g serve
 COPY --from=builder /app/dist ./dist
 EXPOSE 3000
-CMD ["serve", "dist", "--listen", "3000"]
+CMD ["sh", "-c", "serve dist --listen ${PORT:-3000}"]
